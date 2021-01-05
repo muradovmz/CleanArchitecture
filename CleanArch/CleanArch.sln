@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{13B89115-1B5B-4B38-AFA5-8595C8DEE1E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{819513E1-EC01-4BCD-8950-3B2C1DE88FFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{819513E1-EC01-4BCD-8950-3B2C1DE88FFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{704F9F1D-F749-4923-90C9-970C48618BD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{819513E1-EC01-4BCD-8950-3B2C1DE88FFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{819513E1-EC01-4BCD-8950-3B2C1DE88FFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{819513E1-EC01-4BCD-8950-3B2C1DE88FFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704F9F1D-F749-4923-90C9-970C48618BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704F9F1D-F749-4923-90C9-970C48618BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704F9F1D-F749-4923-90C9-970C48618BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704F9F1D-F749-4923-90C9-970C48618BD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{6745D331-861D-44BA-B381-451F155308EE} = {5E408912-6ADB-4AFB-9650-EB4BBE25B24D}
 		{13B89115-1B5B-4B38-AFA5-8595C8DEE1E5} = {D71EB8BE-A017-4C50-9E55-E333FCF5F260}
 		{819513E1-EC01-4BCD-8950-3B2C1DE88FFA} = {88321C3D-8C89-48D4-8078-BE49E7DCECC9}
+		{704F9F1D-F749-4923-90C9-970C48618BD6} = {875FF47B-8E95-4853-B7AB-842459A3B450}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5738A6DA-E9B6-4E0B-BBE0-0BD79B6765C2}
